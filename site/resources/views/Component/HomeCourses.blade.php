@@ -4,7 +4,7 @@
     <div class="row">
 
         @foreach($CoursesData as $CoursesData)
-            <div class="col-md-4 thumbnail-container">
+            <div class="col-md-6 thumbnail-container">
             <img src={{$CoursesData->course_img}} alt="Avatar" class="thumbnail-image ">
             <div class="thumbnail-middle">
                 <h1 class="thumbnail-title"> {{$CoursesData->course_name}} </h1>

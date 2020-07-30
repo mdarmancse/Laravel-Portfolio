@@ -26,6 +26,7 @@
                     <li> <a href="{{url('/project')}}" ><span> <i class="fas fa-code"></i> </span><span class="hide-menu">Projects</span></a></li>
                     <li> <a href="{{url('/messeges')}}" ><span> <i class="fas fa-envelope"></i> </span><span class="hide-menu">Messeges</span></a></li>
                     <li> <a href="{{url('/reviews')}}" ><span> <i class="fab fa-rocketchat"></i> </span><span class="hide-menu">Reviews</span></a></li>
+                    <li> <a href="{{url('/photos')}}" ><span> <i class="fa fa-camera"></i> </span><span class="hide-menu">Photo Gallery</span></a></li>
 
                 </ul>
             </nav>

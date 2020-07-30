@@ -65,3 +65,10 @@ Route::post('/reviewAdd', 'ReviewController@reviewAdd')->middleware('logincheck'
 Route::get('/LoginIndex', 'LoginController@LoginIndex');
 Route::get('/onLogout', 'LoginController@onLogout');
 Route::post('/onLogin', 'LoginController@onLogin');
+
+
+//Admin Photo Gallery
+
+Route::get('/photos', 'PhotoController@PhotoIndex')->middleware('logincheck');;
+Route::post('/PhotoUpload', 'PhotoController@PhotoUpload')->middleware('logincheck');;
+Route::get('/PhotoRow', 'PhotoController@PhotoRow')->middleware('logincheck');;

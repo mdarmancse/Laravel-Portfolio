@@ -9,3 +9,21 @@ padding: 1% 1% 1% 1% ;
     width: 100px;
     height: auto;
 }
+
+.imgPreview{
+    border: none;
+    width:100%;
+    object-fit: cover;
+    height: 320px;
+    margin-top:3%;
+
+}
+
+.imageOnRow{
+    border: none !important;
+    width:100%;
+    object-fit: cover;
+    height: 350px;
+    margin-top:3%;
+
+}
